@@ -1,6 +1,6 @@
-const gulp = require('gulp');
-const zip = require('gulp-zip');
-const del = require('del');
+import gulp from 'gulp'
+import zip from 'gulp-zip'
+import del from 'del'
 
 gulp.task('clean', function(done) {
     return del([
